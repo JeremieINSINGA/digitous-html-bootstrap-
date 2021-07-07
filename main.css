@@ -1,0 +1,157 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-image: url("image.png");
+    background-attachment: fixed;
+  }
+  
+  aside {
+  
+    float: right;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:hover{
+  color:rgb(82, 85, 84);
+  }
+  
+  nav a {
+    color: black;
+  }
+  
+  .h2 {
+    color: rgb(219, 219, 219);
+  }
+  
+  .primary-block {
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 87, 138);
+  }
+  .secondary-block {
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    /*background-color: rgb(40, 70, 88);*/ÚÚ
+    /*background-image: url("image.png");*/
+  }
+  
+  nav {
+    display: flex;
+    height: 70px;
+  }
+  
+  nav h2 {
+    padding: 20px 0 20px 15px;
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 24px;
+  }
+  
+  nav li {
+    margin-left: 15px;
+  }
+  header {
+    text-align: center; /* Très intéressant pour faire mon block en bas*/
+    padding: 40px;
+  }
+  
+  h3 li {
+    max-width: 800px;
+    margin:auto;
+    text-align: center;
+  }
+  .content {
+    max-width: 800px;
+    margin:auto;
+    height: 50%;
+  }
+  
+  #size{
+    font-size: 22px;
+    font-style: none;
+  }
+  header h2 {
+    color: rgb(199, 224, 240);
+  }
+  
+  
+  .center {
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .linfo{
+    text-align:right;
+  }
+  
+  #comp-info {
+    text-align: left;
+  }
+  
+  
+  h3 {
+    text-align: center;
+    padding:15px
+  }
+  
+  header img {
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px rgb(170, 170, 170);
+  }
+  
+  section {
+    padding: 40px;
+  }
+  #xp ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #xp li {
+    margin-bottom: 10px;
+  }
+  
+  #xp aside {
+    float: right;
+  }
+  footer {
+    padding: 40px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links {
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 390px;
+    text-decoration: none;
+  }
+  
+  .split{
+    display:flex;
+  }
+  
+  
+  /* #comp-info {
+    line-height: 8px;
+  } */
+  
+  .italic{
+    font-style: italic;
+  }
